@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="flexeo borde">     
+            <a href="../index.html" class="fuenteTitulo">
+                Loan Art
+            </a>
+            <a class="tamañoFoto ">
+                <img src="../assets/imagenes/Captura de pantalla 2022-09-29 201215_preview_rev_1.png" alt="" class="imagen">
+            </a>
+            <ul class="flexeo2">
+                <li>
+                    <a href="../pages/galeria.html">Galeria</a>
+                </li>
+                <li>
+                    <a href="../pages/sobre_mi.html">Sobre Mi</a>
+                </li>
+                <li>
+                    <a href="../pages/pedidos.html">Pedidos</a>
+                </li>
+                <li>
+                    <a href="../pages/contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main >
+        <section class="tamañoMainPedido">
+            <h1 class="alinearTexto espacioTitulo">Realice su pedido a continuacion...</h1>
+            <form>
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <section class="flexField">
+                        <div class="flexDiv1">
+                            <label>Nombre/s</label>
+                            <input type="text">
+                        </div>
+                        <div class="flexDiv1">
+                            <label>Apellido</label>
+                            <input type="text">
+                        </div>
+                        <div class="flexDiv1">
+                            <label>Correo electronico</label>
+                            <input type="text">
+                        </div>
+                        <div class="flexDiv1">
+                            <label>Telefono</label>
+                            <input type="text">
+                        </div>
+
+                    </section>
+                </fieldset>
+                <fieldset>
+                    <legend>Detalles del producto</legend>
+                    <section class="flexField2">
+                        <div>
+                            <label>Que dibujo desea comprar?</label>
+                            <select name="Obras">
+                                <option></option>
+                                <option>15 Dias Mas</option>
+                                <option>Batman Vampire</option>
+                                <option>Demonios Internos</option>
+                                <option>Social Distance</option>
+                                <option>Healthcare Heroes</option>
+                                <option>Extraños Sucesos en el Cementerio</option>
+                                <option>Muerte Roja</option>
+                                <option>Pizza y Alcohol en Gel</option>
+                                <option>Desolate Wasteland</option>
+                                <option>The Hand</option>
+                                <option>An Unexpected Visit</option>
+                                <option>Too Much to Tell</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label>cantidad</label>
+                            <select name="Cantidad">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                    </section>
+                </fieldset>
+                <fieldset>
+                    <legend>Detalles del envio</legend>
+                    <section>
+                        <div class="flexField2">
+                            <label>Seleccione el Metodo de Envio</label>
+                            <div>
+                                A domicilio
+                                <input type="radio" name="envio" id="a domicilio">
+                            </div>
+                            
+                            <div>
+                                Retiro en punto de entrega
+                                <input type="radio" name="envio" id="retiro">
+                            </div>
+                            
+                        </div>
+                    </section>
+                </fieldset>
+                <fieldset>
+                    <section class="flexField2">
+                        <div>
+                            <label for="">Acepta los terminos y condiciones</label>
+                            <input type="checkbox" name="" id="">
+                        </div>
+                        <div>
+                            <input type="submit" value="enviar">
+                        </div>
+                    </section>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section class="flexeoFooter bordeFooter">
+            Loan Art, todos los derechos reservados ©
+            <div>
+                <a href="https://www.instagram.com/loan_art00/" class="tamañoFoto">
+                    <img src="../assets/imagenes/instagram icono.png" alt="" class="imagen">
+                </a>
+                <a href="https://www.facebook.com/loan.arts.90" class="tamañoFoto">
+                    <img src="../assets/imagenes/png-transparent-facebook-computer-icons-layout-rectangle-logo-brand.png" alt="" class="imagen">
+                </a>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

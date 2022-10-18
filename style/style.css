@@ -1,0 +1,188 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+header{
+    background-color: #79BD9A;
+}
+body{
+    font-family:'Lora', serif;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    background-color: #79BD9A
+}
+
+main{
+    background-color: #3B8686;
+
+}
+nav ul{
+    display: inline;
+    width: 87.5%;
+}
+
+ul li{
+    display: inline-block;
+    background-color: #A8DBA8;
+    padding: 0.4%;
+    margin-left: 0.3%;
+    border-radius: 10%;
+}
+
+.borde{
+    border-bottom: 10px;
+    border-bottom: #0B486B;
+    border-bottom-style:groove;
+}
+
+.bordeFooter{
+    border-top: 10px;
+    border-top: #0B486B;
+    border-top-style:groove; 
+}
+
+.flexeo{
+    display: flex;
+    align-items: center
+}
+
+.flexeo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.flexeoFooter{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.imagen{
+    width: 52.92px;
+    height: 45px;
+    position: relative;
+    top: 10%;
+}
+
+.tamañoFoto{
+    width: 55px;
+    height: 55px;
+    display: inline-block;   
+}
+
+.fuenteTitulo{
+    font-size: 270%;
+}
+
+.flexMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.imagenResolucion{
+    max-width: 33%;  
+}
+
+
+
+.imagenResolucionGaleria{
+    max-width: 90%;  
+
+}
+
+.flexMainGal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.flexMain2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main section a{
+    width: max-content;
+}
+
+.tamañoTexto{
+    width: 80%;
+}
+
+.flexDiv1{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+}
+.flexDiv2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    
+}
+
+.flexField{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 190px;
+}
+
+.flexField2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.espacioTitulo{
+    padding-bottom: 1%;
+}
+
+.alinearDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.tamañoMain{
+    padding: 2% 0% 5% 0%;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.alinearTexto{
+    text-align: center;
+}
+
+.espacioFoto{
+    padding-top: 1% ;
+}
+
+.imagenResolucionSobremi{
+    max-width: 25%;  
+}
+.tamañoMainPedido{
+    padding:2% 0% 11% 0%;
+}
+
+.espacioSectionGaleria{
+    padding-top: 1%;
+}
+
+.tamañoMainContacto{
+    padding: 2% 0% 29% 0%;
+}
+
+.tamañoMainInicio{
+    padding: 1% 0% 1% 0%;
+}
